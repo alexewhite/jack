@@ -27,10 +27,10 @@ struct ContentView: View {
                             HStack {
                                 Spacer()
                                 NavigationLink(destination: MenuBar()) {
-                                    Image("menu")
+                                    Image("menu2")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
-                                        .frame(width: 30, height: 30)
+                                        .frame(width: 40, height: 40)
                                         .padding()
                                 }
                             } // end of HStack
